@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_me">
+
+    <fragment
+        android:id="@+id/nav_heart"
+        android:name="com.indproj.kalkulator.ui.heart.HeartRateFragment"
+        android:label="@string/title_max_heart"
+        tools:layout="@layout/fragment_heart" >
+        <action
+            android:id="@+id/action_nav_heart_to_navigation_zone"
+            app:destination="@id/navigation_zone" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_zone"
+        android:name="com.indproj.kalkulator.ui.zones.ZonesFragment"
+        android:label="@string/title_train_zone"
+        tools:layout="@layout/fragment_zone" />
+
+    <fragment
+        android:id="@+id/navigation_me"
+        android:name="com.indproj.kalkulator.ui.data.MeFragment"
+        android:label="@string/title_me"
+        tools:layout="@layout/fragment_me" >
+        <action
+            android:id="@+id/action_navigation_me_to_nav_heart"
+            app:destination="@id/nav_heart" />
+    </fragment>
+</navigation>

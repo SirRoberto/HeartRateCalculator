@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_heart"
+        android:icon="@drawable/ic_action_heart"
+        android:title="@string/title_heart" />
+
+    <item
+        android:id="@+id/navigation_zone"
+        android:icon="@drawable/ic_action_zone"
+        android:title="@string/title_zone" />
+
+    <item
+        android:id="@+id/navigation_me"
+        android:icon="@drawable/ic_action_me"
+        android:title="@string/title_me" />
+
+</menu>

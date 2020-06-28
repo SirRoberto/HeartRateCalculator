@@ -1,0 +1,204 @@
+<resources>
+    <string name="app_name">Kalkulator</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="title_heart">Tętno</string>
+    <string name="title_max_heart">Tętno maksymalne</string>
+    <string name="title_zone">Strefy</string>
+    <string name="title_train_zone">Strefy treningowe</string>
+    <string name="title_me">Dane</string>
+    <string name="exit">Kliknji jescze raz, by zamknąć</string>
+    <string name="frag_me_sex">Płeć</string>
+    <string name="frag_me_age">Wiek</string>
+    <string name="frag_me_weight">Waga</string>
+    <string name="frag_me_rest_rate">Tętno spoczynkowe</string>
+    <string name="man">Mężczyzna</string>
+    <string name="woman">Kobieta</string>
+    <string name="desc_reg_zone">
+        Strefa tętna o niskiej intensywności zapewnia komfortowe tętno
+        i jest dobrym wyborem dla początkujących lub do rozgrzewki albo w okresach regeneracji dla
+        osób przetrenowanych.\n\n
+        Zawsze powinieneś rozpocząć sesję treningową z kilkoma
+        minutami w strefie zdrowia, aby pobudzić krążenie krwi. Początkujący mogą
+        zacząć od tej strefy, aby zbudować tolerancję na wysiłek i przyzwyczaić się
+        do chodzenia, jazdy na rowerze lub korzystania ze sprzętu do ćwiczeń
+        wysiłkowych.\n\n
+        Przy niskim poziomie intensywności czerpiesz korzyści płynące z
+        aktywności fizycznej. Ćwiczenia w tej strefie wzmacniają układ krążenia,
+        poprawiają wydolność, kondycję i zdrowie. Jednakże wadą pozostania w tej
+        strefie jest to, że nie uzyskuje się dodatkowych korzyści, które dają
+        ćwiczenia w strefie o umiarkowanej intensywności.\n\n
+        Aby ćwiczyć w tej strefie, wybierz ruch podczas którego możesz łatwo kontrolować tętno.
+        Przykłady treningu o niskiej intensywności to spacer w komfortowo łatwym tempie lub
+        korzystanie z roweru stacjonarnego z niewielkim obciążeniem podczas pedałowania.
+    </string>
+    <string name="desc_far_burning">
+        Eksperci często zalecają pracę z umiarkowaną intensywnością, aby schudnąć, wzmocnić układ
+        krążenia, poprawić kondycję oraz wydolności serca. Treningi cardio w strefie tętna
+        poprawiają zdolność organizmu do transportu tlenu.\n\n
+        Jest to idealna strefa dla osób odchudzających się.\n\n
+        Treningi w tej strefie nie powinny przekroczyć 150 minut w ciągu tygodnia i trwać powinny
+        minimum 10 minut dziennie. Treningi powinny być rozłożone na cały tydzień.\n\n
+        Przykłady treningu cardio o umiarkowanej intensywności obejmują szybki marsz, łatwy
+        jogging, jazdę na rowerze poniżej 20 km/h i aerobik wodny.
+    </string>
+    <string name="desc_aerobic">
+        Praca w strefie tętna o wysokiej intensywności powoduje wyjście poza strefę komfortu
+        i pozwala spalić więcej kalorii. W tej strefie budujesz kondycję aerobową, poprawiając
+        VO2 max (maksymalne zużycie tlenu). Konsekwentne treningi o wysokiej intensywności mogą
+        podnieść twój próg beztlenowy (lub próg mleczanowy). W tej strefie następuje poprawa
+        wydolności oddechowej i krążenia co w konsekwencji poprawia kondycję i wyniki sportowe.\n\n
+        Strefa idealna do zwiększenia wytrzymałości i wydolności.\n\n
+        Aby osiągnąć minimalną zalecaną ilość ćwiczeń w każdym tygodniu, potrzebujesz 75 minut
+        w odstępach co najmniej 10 minutowych. Najlepsze wyniki daje połączenie ćwiczeń o wysokiej
+        intensywności i umiarkowanej intensywności.\n\n
+        Przykłady treningów o dużej intensywności obejmują bieganie, pływanie, jazdę na rowerze
+        szybszą niż 15 km/h i ćwiczenia o wysokiej intensywności w treningu aerobowym.
+    </string>
+    <string name="desc_anaerobic">
+        Zakres przełomowy, silnie oddziałujący na organizm. W tej strefie trening aerobowy (tlenowy)
+        przechodzi w trening anaerobowy (beztlenowy). Aby uzyskać maksymalny wzrost wydajności
+        i wytrzymałości zawodowi sportowcy trenują przez krótki czas w tym zakresie przez co jest
+        to najtrudniejsza strefa. Przykładem treningu w tej strefie jest trening interwałowy
+        w sprincie. Zakres ten jest szczególnie ważny dla zawodowych wyczynowców w danej dziedzinie
+        sportu.
+    </string>
+    <string name="desc_red">
+        Ponad 90% maksymalnego tętna. Zbliża się do maksymalnego tętna. Treningi beztlenowe.
+        Wadą ćwiczeń przy maksymalnej intensywności jest to, że jesteś powyżej progu beztlenowego,
+        a organizm produkuje kwas mlekowy. Co prowadzi do uczucia pieczenia w mięśniach i bólu
+        mięśni po wysiłku. Strefa ta może być szkodliwa dla serca u osób trenujących rekreacyjnie!
+    </string>
+
+    <string name="title_info_benefits">Korzyści z treningu "na tętno"</string>
+    <string name="body_info_benefits">
+        1. Minimalizacja ryzyka związanego z przetrenowaniem, - dzięki temu zwiększamy efektywność
+        treningu, przy jednoczesnym zmniejszeniu ryzyka wystąpienia kontuzji,\n\n
+        2. Zapobieganie niedotrenowaniu, dzięki możliwości obiektywnego określenia aktualnego
+        poziomu „zapasu energii” organizmu w czasie treningu, - pozwoli nam na bezpieczne
+        zwiększenie jego intensywności,\n\n
+        3. Efektywna gospodarka zasobami glikogenu i tłuszczu zmagazynowanych w organizmie, -
+        przyczynia się do zachowania energii koniecznej w długotrwałym treningu biegowym,\n\n
+        4. Możliwość ciągłego monitorowania wysiłku podczas biegu, - niezwykle przydatna zwłaszcza
+        w terenie o zmiennym ukształtowaniu, szczególnie podczas podbiegów.\n\n
+        5. Możliwość wzbogacenia ilości stosowanych form treningowych, przyczyniających się do
+        efektywnej i bezpiecznej realizacji postawionych sobie celów sportowych,\n\n
+        6. Możliwość stosowania wysiłków o intensywności szczególnie przyspieszającej, proces
+        spalania tłuszczu, bez niszczenia tkanki mięśniowej.
+    </string>
+
+    <string name="title_info_heartRate">Czym jest tętno?</string>
+    <string name="body_info_heartRate">
+        Tętno, inaczej puls, jest to rytmiczne rozciąganie ścian naczyń krwionośnych wywołane 
+        gwałtownymi zmianami ciśnienia krwi, powstałego na skutek skurczów i rozkurczów komór serca.
+        Upraszczając dla naszych potrzeb, jest to liczba skurczów serca na minutę.
+    </string>
+    
+    <string name="title_info_arterialPulse">Czym jest tętno tętnicze?</string>
+    <string name="body_info_arterialPulse">
+        Jest to tętno przebiegające w tętnicach, w formie fali, od aorty i tętnicy płucnej do tętniczek.\n
+        Ciekawostką może być fakt, ze prędkość przepływu krwi wynosi między 18 km a 28,8 km/h – i
+        nie urywa nam kończyn. Ciekawe.\n
+        Tętno (puls), najczęściej badamy na tętnicy promieniowej, – czyli w okolicy nadgarstka,
+        ale jest to możliwe także w innych miejscach, takich, jak okolice tętnic:\n
+        \t- szyjnej zewnętrznej,\n
+        \t- ramiennej,\n
+        \t- udowej,\n
+        \t- podkolanowej,\n
+        \t- grzbietowej stopy.\n\n
+        Tętno o dużej amplitudzie, czyli dobrze napięte z reguły świadczy o dużej pojemności
+        wyrzutowej serca.
+        Pamiętać należy, że tętno wyczuwamy poprzez nacisk na wyżej wymienione tętnice, palcami
+        wskazującym i środkowym. Nie powinniśmy używać do tego kciuka, szczególnie do mierzenia
+        pulsu innej osoby, ponieważ jego silny puls może nakładać się na puls badanej osoby.
+    </string>
+
+    <string name="title_info_venousPulse">Czym jest tętno żylne?</string>
+    <string name="body_info_venousPulse">
+        Jest to rytmiczne rozszerzanie dużych żył, uzależnione od cofania się pewnej objętości
+        krwi, w czasie jej cofania się w podczas skurczu prawego przedsionka serca. Ten rodzaj
+        tętna możemy zaobserwować jedynie na tętnicach szyjnych.
+    </string>
+
+    <string name="title_info_restingHeartRate">Czym jest tętno spoczynkowe?</string>
+    <string name="body_info_restingHeartRate">
+        Jak sama nazwa wskazuje, jest to najniższa wartość naszego tętna mierzona podczas spoczynku,
+        po przebudzeniu, ale przed podjęciem jakiejkolwiek akcji fizycznej.\n
+        Aby je prawidłowo zmierzyć, pomiar musi być wykonany zaraz po przebudzeniu – koniecznie
+        jeszcze przed wstaniem z łóżka, ponieważ każdy wysiłek fizyczny (nawet zmiana pozycji ciała)
+        podnosi jego wartość.\n
+        Nawiasem mówiąc, nawet nasze myśli, szczególnie te nieprzyjemne mają duży wpływ na
+        częstotliwość pracy serca.\n
+        W celu zmierzenia wartości tętna spoczynkowego używamy, albo przygotowanego wcześniej
+        pulsometru, lub zliczamy ją „ręcznie”.
+        W tym przypadku po prostu przykładamy rękę do klatki piersiowej na wysokości serca –
+        i liczymy jego uderzenia w ciągu jednej minuty.
+        Należy pamiętać, aby każdy następny pomiar był wykonywany w tej samej pozycji,
+        Wyniki będą wówczas porównywalne.\n
+        Dla osób dorosłych typowy zakres tętna spoczynkowego mieści się w przedziale 60-80 bpm
+        (beats per minute – uderzeń na minutę)\n
+        Tętno poniżej 60 bpm klasyfikowane jest w medycynie jako bradykardia, natomiast powyżej
+        110 bpm – jako tachykardia.\n
+        Natomiast u osób będących w dobrej formie fizycznej, wytrenowanych zakres 45 – 50, to
+        właściwie norma, a niższe wartości nie są czymś wyjątkowym.
+        Tmin obniża się, wraz ze wzrostem wytrenowania organizmu (tętno spoczynkowe Lance
+        Armstrong’a wynosiło około 32 bpm).\n
+        Dla nas istotna jest informacja, że dla sportowców wartość tętna spoczynkowego jest
+        wskaźnikiem wytrenowania, a jego znaczne wychylenie w górę od normy, może świadczyć o
+        chorobie, bądź przetrenowaniu.
+        Dlatego, jeśli Tsp gwałtownie „wyskoczy” ponad nasz standardowy poziom – bądźmy ostrożni.
+    </string>
+
+    <string name="title_info_testMaxHeartRate">Praktyczny pomiar tętna maksymalnego</string>
+    <string name="body_info_testMaxHeartRate">
+        Po pierwsze – przystępując do empirycznego pomiaru w terenie, musicie być całkowicie zdrowi.
+        Testy te wymagają przecież tylko, a raczej aż jednego – wykrzesania z siebie wszystkich sił,
+        zasobów energii i dotarcia do ostatecznych limitów organizmu. Nie jest to zabawa – to
+        poważna próba i jeszcze poważniejsze obciążenie wszystkich naszych układów.\n
+        Dlatego – najpierw się zbadajcie i zasięgnijcie opinii lekarza.
+        Jeśli jesteście na początku swojej sportowej drogi – poczekajcie, aż się wzmocnicie.
+        Na początek wyliczenie na podstawie podanych wyżej formuł w zupełności wystarczy.\n\n
+
+        Poniżej przedstawiam dwie metody praktycznego określenia Tmax:\n
+        1. Pokonujemy dystans 1500 metrów najszybciej, jak możemy, po czym ostatnie 100 metrów
+        pędzimy tak, jakby od tego miało zależeć nasze życie. Natychmiast po zakończeniu biegu
+        mierzymy tętno.\n
+        2. Przebiegamy z maksymalną szybkością trzy jednominutowe odcinki przeplatane dwoma,
+        również jednominutowymi odcinkami truchtu. Po zakończeniu mierzymy tętno.\n\n
+
+        Jeśli dysponujemy pulsometrem, nie ma problemu – po prostu patrzymy na pulsometr.
+        Pomiaru ręcznego dokonujemy w przedstawiony poniżej sposób:\n
+        Po zakończeniu próby biegowej stajemy i w pozycji wyprostowanej (nie zginamy się, nie
+        kucamy i nie kładziemy, przynajmniej na razie), kładziemy rękę na sercu, i przez 10 sekund
+        liczymy jego uderzenia. Otrzymaną ilość mnożymy przez 6 – i idziemy spać, mamy już wyliczoną
+        wartość naszego Tmax.
+    </string>
+
+    <string name="title_info_optimalPulse"> Optymalne tętno do treningu</string>
+
+    <string name="body_info_optimalPulse">
+        Optymalne tętno do treningu uzależnione jest od cech indywidualnych, uprawianego sportu
+        oraz intensywności treningów i ich zaawansowania. Podczas treningów jednym z najważniejszych
+        elementów, na które należy zwrócić uwagę jest ich intensywność co ma bezpośrednie
+        odzwierciedlenie w wysokości tętna. Wyznaczenie wysokości tętna optymalnego do wybranego
+        treningu pozwala na ustalenie takiej intensywności ćwiczeń jakiej potrzebujesz bez
+        niepotrzebnego forsowania organizmu lub tracenia czasu na nierozwojowe treningi.\n\n
+
+        Do wyznaczenia tętna optymalnego zastosowanie ma tzw. Formuła Kavonena. Jest to wzór,
+        w którym wykorzystana do obliczeń jest rezerwa tętna czyli różnica pomiędzy tętnem
+        spoczynkowym a tętnem maksymalnym.
+    </string>
+
+    <string name="textview">TextView</string>
+    <string name="wzor">Wzór:</string>
+    <string name="error">Błąd:</string>
+    <string name="ok">OK</string>
+    <string name="formula_name">Nazwa formuły</string>
+    <string name="value">Wartość</string>
+    <string name="optimal_pulse">Optymalne tętno do treningu</string>
+    <string name="basic_optimal_pulse">• podstawowego dla niewprawionych:</string>
+    <string name="intensity_optimal_pulse">• intensywnego wytrzymałościowego:</string>
+    <string name="long_optimal_pulse">• długiego wytrzymałościowego:</string>
+    <string name="value1">wartosc</string>
+    <string name="title">title</string>
+
+</resources>
